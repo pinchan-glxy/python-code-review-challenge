@@ -18,3 +18,8 @@ Thumbs.db
 .vscode/
 *.swp
 *.swo
+
+# Local review notes
+review-notes.md
+questions.md
+reference.txt

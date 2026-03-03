@@ -1,29 +1,14 @@
 # Python Code Review Challenge
 
-A collection of Python code snippets for practicing code review skills.
+Review each snippet as if it were part of a pull request from a teammate.
+For every issue you find, briefly explain **what** the problem is, **why** it matters, and **how** you would fix it.
 
-## Review Guidelines
+## What to look for
 
-### ✅ Code Style & Structure
-- Follow PEP 8 for naming, spacing, and line length
-- Use meaningful variable/function names
-- Avoid deep nesting and large functions
-
-### 🔒 Error Handling
-- Use specific exceptions
-- Avoid bare `except:` blocks
-- Log or re-raise errors when appropriate
-
-### 📦 Code Organization
-- Separate logic from I/O
-- Avoid hardcoded values
-- Minimize global state
-
-### 🧪 Testability
-- Use functions with clear input/output
-- Write code that can be unit tested easily
-
-### 🧼 Clean Code
-- Remove unused imports/variables
-- Prefer list comprehensions over manual loops (when readable)
-- Use built-in functions where appropriate
+- **Correctness** — Does the code handle edge cases and unexpected input gracefully?
+- **Error handling** — Are failures caught, reported, and recovered from appropriately?
+- **Security** — Could any input be crafted to cause unintended behavior?
+- **Performance** — Will the code hold up as data grows?
+- **Readability** — Is the intent clear? Are Python idioms and conventions used well?
+- **Testability** — Could you write a unit test for this code without major refactoring?
+- **Design** — Is the code structured in a way that's easy to maintain and extend?
