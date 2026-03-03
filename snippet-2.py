@@ -1,3 +1,4 @@
+# Saves a user's data to a JSON file named by their user ID.
 import json
 
 def save_user_info(user_id, data):

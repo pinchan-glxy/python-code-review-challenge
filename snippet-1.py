@@ -1,3 +1,5 @@
+# Iterates through a mixed list, identifying emails, doubling numeric values,
+# and printing everything else as-is.
 def process_data(data_list):
     for item in data_list:
         if "@" in item:

@@ -1,3 +1,4 @@
+# Generates either a summary or full user report by querying a database.
 class ReportGenerator:
     def __init__(self, db):
         self.db = db
